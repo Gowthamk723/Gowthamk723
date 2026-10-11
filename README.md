@@ -1,45 +1,62 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:6366F1,100:14B8A6&height=280&section=header&text=GOWTHAM%20K&fontSize=55&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Full%20Stack%20Developer%20%7C%20%20%20Cloud%20Systems&descAlignY=60&descSize=18" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=220&section=header&text=Gowtham%20K&fontSize=45&fontColor=ffffff&animation=fadeIn" width="100%" />
 </div>
 
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F5FF&size=22&center=true&vCenter=true&width=650&lines=Building+reliable%2C+secure+software;Backend%2C+Cloud+%26+Automation;Tests+%26+CI%2FCD+pipelines;Always+learning+%26+building" />
+</div>
 
 
 ---
 
-## 🧑‍💻 About Me
+## 🧠 About Me
 
-I'm a B.Tech Computer Science & Engineering student passionate about building practical software across full-stack development, backend engineering, AI/ML, and cloud technologies.
+🎓 Final-year B.Tech Computer Science & Engineering student  
+⚡ Full-Stack & Backend Developer with a focus on reliability and cloud security  
+🛠️ Building web apps, secure REST APIs, and automated CI/CD pipelines  
+🧪 Catching bugs early with automated unit and integration tests  
+🤖 Exploring AI/ML-integrated applications  
+💼 Open to Software Engineering internships & entry-level roles  
+📍 Chennai, India  
 
-I enjoy turning ideas into working applications — from responsive frontends and REST APIs to database integration, AI-powered features, and deployment.
-
-- 💻 Focused on Full Stack Development & Backend Engineering
-- 🤖 Exploring AI/ML-integrated applications
-- ☁️ Learning Cloud, DevOps & CI/CD
-- 💼 Open to Software Engineering Internships & collaborations
+I focus on building reliable, cloud-deployed applications that integrate backend services, automated pipelines, and AI features.
 
 ---
 
 ## 🛠️ Tech Stack
 
-🎨 Frontend
+☁️ **Cloud & DevOps**  
+<br/>
+<img src="https://skillicons.dev/icons?i=docker,terraform,aws,gcp,githubactions,vercel,firebase&theme=dark" height="45"/>
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite&theme=dark" height="45"/>
 
-⚙️ Backend
+🧰 **Tools**  
+<br/>
+<img src="https://skillicons.dev/icons?i=git,github,linux&theme=dark" height="45"/>
 
+
+⚙️ **Backend & APIs**  
+<br/>
 <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi&theme=dark" height="45"/>
 
-💻 Languages
 
+💻 **Languages**  
+<br/>
 <img src="https://skillicons.dev/icons?i=python,js&theme=dark" height="45"/>
 
-🗄️ Databases
 
-<img src="https://skillicons.dev/icons?i=mongodb,postgresql,mysql&theme=dark" height="45"/>
+🗄️ **Databases**  
+<br/>
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql&theme=dark" height="45"/>
 
-☁️ Cloud & DevOps
 
-<img src="https://skillicons.dev/icons?i=docker,vercel,gcp,git,github,githubactions,firebase,linux&theme=dark" height="45"/>
+🧪 **Testing & API Tools**  
+<br/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Pytest_logo.svg" height="45" alt="pytest"/> <img src="https://skillicons.dev/icons?i=postman&theme=dark" height="45"/>
+
+🎨 **Frontend**  
+<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite&theme=dark" height="45"/>
 
 <br/>
 
@@ -53,7 +70,28 @@ I enjoy turning ideas into working applications — from responsive frontends an
 
 ## 📌 Featured Projects
 
-### 🔍 [Campus Lost & Found Platform](https://github.com/Gowthamk723/campus-connect.git) &nbsp;·&nbsp; [Live Demo 🌐](https://campus-lost-found-nine.vercel.app/)
+### ☁️ [CloudGuard: Cloud Security & Cost Governance Scanner](https://github.com/Gowthamk723/cloudguard)
+
+An automated scanner that detects cloud misconfigurations and auto-fixes the safe ones, tested against a local AWS emulation environment.
+
+**Highlights**
+- Built a Python scanner that detects unencrypted S3 storage, public buckets, and risky IAM policies
+- Auto-fixes low-risk issues and flags permission changes for human review via webhook-based alerts
+- Provisioned test infrastructure as code using Terraform
+- Implemented unit tests and integration tests via GitHub Actions CI/CD pipeline
+- Designed a dashboard visualizing incident history, auto-fixed vs. flagged counts, and estimated cost savings.
+
+**Tech Stack**
+
+<div align="left">
+
+`Python` `boto3` `LocalStack` `Terraform` `pytest` `moto` `GitHub Actions` `React` `MongoDB Atlas` `Vercel`
+
+</div>
+
+
+
+### 🔍 [Campus Lost & Found Platform](https://github.com/Gowthamk723/campus-connect) &nbsp;·&nbsp; [Live Demo 🌐](https://campus-lost-found-nine.vercel.app/)
 
 A full-stack campus lost-and-found platform designed to help students report, search, and recover misplaced items.
 
@@ -74,17 +112,16 @@ A full-stack campus lost-and-found platform designed to help students report, se
 
 </div>
 
-<br/>
 
-### ☁️ [Cloud Drift Engine — Compliance Automation](https://github.com/Gowthamk723/cloud-drift-engine.git)
+
+### 🛡️ [Cloud Drift Engine: Compliance Automation](https://github.com/Gowthamk723/cloud-drift-engine)
 
 A Python-based compliance automation tool that analyzes infrastructure configuration files and identifies configuration drift and policy violations.
 
 **Highlights**
-- Built a configuration validation engine using Python
-- Parses and validates JSON infrastructure configurations
+- Built a configuration validation engine in Python that parses and validates JSON infrastructure configs
 - Detects unauthorized configuration changes and policy violations
-- Containerized the application using Docker Alpine
+- Containerized the application using Docker (Alpine)
 - Automated security scans using GitHub Actions
 - Added webhook-based notifications for detected violations
 
@@ -92,7 +129,7 @@ A Python-based compliance automation tool that analyzes infrastructure configura
 
 <div align="left">
 
-`Python` `Docker` `GitHub Actions` `JSON` `Cloud Compliance` `CI/CD`
+`Python` `Docker` `GitHub Actions` `JSON` `CI/CD`
 
 </div>
 
@@ -128,11 +165,5 @@ I'm always interested in software engineering opportunities, interesting project
 </div>
 
 <div align="center">
-
-💡 Building ideas into software.
-
-</div>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:14B8A6,50:6366F1,100:0EA5E9&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" width="100%"/>
 </div>
