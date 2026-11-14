@@ -70,7 +70,7 @@ I focus on building reliable, cloud-deployed applications that integrate backend
 
 ## 📌 Featured Projects
 
-### ☁️ [CloudGuard: Cloud Security & Cost Governance Scanner](https://github.com/Gowthamk723/cloudguard)
+### ☁️ [CloudGuard: Cloud Security & Cost Governance Scanner](https://github.com/Gowthamk723/cloudguard) [Live Demo 🌐](cloudguard-peach.vercel.app/)
 
 An automated scanner that detects cloud misconfigurations and auto-fixes the safe ones, tested against a local AWS emulation environment.
 
